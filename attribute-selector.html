@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      [href*="example.com"] {
+        color: red;
+      }
+
+      [href^="https"] {
+        color: green;
+      }
+
+      [href$="/"] {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="example.com">Contains example.com</a>
+    <a href="https://nike.com">Starts with https</a>
+    <a href="https://nike.com/">Ends with /</a>
+  </body>
+</html>
