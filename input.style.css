@@ -1,0 +1,38 @@
+.input {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input-primary {
+    border-color: #bf20fd;
+
+    &:focus-visible {
+        outline: 1px solid #a810e0;
+        border-color: #a810e0;
+    }
+}
+
+.input-secondary {
+    border-color: #e8acff;
+
+    &:focus-visible {
+        outline: 1px solid #da78ff;
+        border-color: #da78ff;
+    }
+}
+
+.input-sm {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.input-md {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.input-lg {
+    padding: 15px;
+    font-size: 16px;
+}
